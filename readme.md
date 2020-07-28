@@ -1,42 +1,7 @@
 <p align="center">
- <img width="100px" src="https://res.cloudinary.com/mholtzhausen/image/upload/v1594908242/logo_ccswme.svg" align="center" alt="Github Readme Stats" />
  <h2 align="center">GitHub Readme Stats</h2>
- <p align="center">Get dynamically generated GitHub stats on your readmes!</p>
 </p>
 
-  <p align="center">
-    <a href="https://github.com/mholtzhausen/github-readme-stats/actions">
-      <img alt="Tests Passing" src="https://github.com/mholtzhausen/github-readme-stats/workflows/Test/badge.svg" />
-    </a>
-    <a href="https://codecov.io/gh/mholtzhausen/github-readme-stats">
-      <img src="https://codecov.io/gh/mholtzhausen/github-readme-stats/branch/master/graph/badge.svg" />
-    </a>
-    <a href="https://github.com/mholtzhausen/github-readme-stats/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/mholtzhausen/github-readme-stats?color=0088ff" />
-    </a>
-    <a href="https://github.com/mholtzhausen/github-readme-stats/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/mholtzhausen/github-readme-stats?color=0088ff" />
-    </a>
-  </p>
-
-  <p align="center">
-    <a href="#demo">View Demo</a>
-    ·
-    <a href="https://github.com/mholtzhausen/github-readme-stats/issues/new/choose">Report Bug</a>
-    ·
-    <a href="https://github.com/mholtzhausen/github-readme-stats/issues/new/choose">Request Feature</a>
-  </p>
-  <p align="center">
-    <a href="readme_cn.md">简体中文</a>
-    ·
-    <a href="readme_es.md">Español</a>
-    ·
-    <a href="readme_de.md">Deutsch</a>
-    ·
-    <a href="readme_ja.md">日本語</a>
-  </p>
-</p>
-<p align="center">Loved the project? Please consider <a href="https://www.paypal.me/mholtzhausen">donating</a> to help it improve!
 
 # Features
 
@@ -54,7 +19,7 @@ Copy paste this into your markdown content, and that's it. Simple!
 Change the `?username=` value to your GitHub's username.
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen)](https://github.com/mholtzhausen/github-readme-stats)
+[![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen)](https://github.com/mholtzhausen/github-readme-stats)
 ```
 
 _Note: Ranks are calculated based on user's stats, see [src/calculateRank.js](./src/calculateRank.js)_
@@ -66,7 +31,7 @@ To hide any specific stats, you can pass a query parameter `?hide=` with comma s
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&hide=contribs,prs)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&hide=contribs,prs)
 ```
 
 ### Adding private contributions count to total commits count
@@ -78,7 +43,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 > Options: `&count_private=true`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&count_private=true)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&count_private=true)
 ```
 
 ### Showing icons
@@ -86,7 +51,7 @@ _Note: If you are deploying this project yourself, the private contributions wil
 To enable icons, you can pass `show_icons=true` in the query param, like so:
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&show_icons=true)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&show_icons=true)
 ```
 
 ### Themes
@@ -96,7 +61,7 @@ With inbuilt themes you can customize the look of the card without doing any [ma
 Use `?theme=THEME_NAME` parameter like so :-
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&show_icons=true&theme=radical)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes :-
@@ -203,25 +168,25 @@ You can use the `&layout=compact` option to change the card design.
 
 - Default
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen)
 
 - Hiding specific stats
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&hide=contribs,issues)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&hide=contribs,issues)
 
 - Showing icons
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&hide=issues&show_icons=true)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&hide=issues&show_icons=true)
 
 - Themes
 
 Choose from any of the [default themes](#themes)
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&show_icons=true&theme=radical)
+![Mark's github stats](https://github-readme-stats.vercel.app/api?username=mholtzhausen&show_icons=true&theme=radical)
 
 - Customizing stats card
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=mholtzhausen&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Mark's github stats](https://github-readme-stats.vercel.app/api/?username=mholtzhausen&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Customizing repo card
 
